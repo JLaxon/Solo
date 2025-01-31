@@ -520,15 +520,26 @@
                                 <h2>Our <br>Amazing <strong>Work</strong></h2>
                             </div>
                         </div>
+
+                        <div class="col-md-12">
+                            <!-- Portfolio Items Filters -->
+                            <div id="isotope-filters">
+                                <button class="btn active" data-filter="*"><span>All</span></button>
+                                <button class="btn" data-filter=".logo"><span>Logo</span></button>
+                                <button class="btn" data-filter=".web"><span>Web</span></button>
+                                <button class="btn" data-filter=".mobile"><span>Mobile</span></button>
+                                <button class="btn" data-filter=".desktop"><span>Desktop</span></button>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <!-- Portfolio Items Wrapper -->
                 <section id="portfolio-wrapper">
                     <div class="container-fluid">
-                        <div class="row">
-                            <div id="*-container">
-                                <div class="col-md-3">
+                        <div class="row no-gutters">
+                            <div id="isotope-container">
+                                <div class="col-md-3 desktop">
                                     <!-- Portolio Item 01 -->
                                     <div class="portfolio-item">
                                         <a href="img/portfolio/001.jpg" title="Add Description">
@@ -546,7 +557,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-md-3 web">
                                     <!-- Portolio Item 02 -->
                                     <div class="portfolio-item">
                                         <a href="img/portfolio/002.jpg" title="Add Description">
@@ -563,7 +574,7 @@
                                             </div>
                                         </a>
                                     </div></div>
-                                <div class="col-md-3">
+                                <div class="col-md-3 web mobile logo">
                                     <!-- Portolio Item 03 -->
                                     <div class="portfolio-item">
                                         <a href="img/portfolio/003.jpg" title="Add Description">
@@ -581,7 +592,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-md-3 logo web">
                                     <!-- Portolio Item 04 -->
                                     <div class="portfolio-item">
                                         <a href="img/portfolio/004.jpg" title="Add Description">
@@ -599,7 +610,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-md-3 web">
                                     <!-- Portolio Item 05 -->
                                     <div class="portfolio-item">
                                         <a href="img/portfolio/005.jpg" title="Add Description">
@@ -617,7 +628,8 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-md-3"><!-- Portolio Item 06 -->
+                                <div class="col-md-3 logo desktop">
+                                    <!-- Portolio Item 06 -->
                                     <div class="portfolio-item">
                                         <a href="img/portfolio/006.jpg" title="Add Description">
                                             <img src="img/portfolio/006.jpg" class="img-responsive" alt="portfolio 06">
@@ -633,7 +645,7 @@
                                             </div>
                                         </a>
                                     </div></div>
-                                <div class="col-md-3">
+                                <div class="col-md-3 web mobile">
                                     <!-- Portolio Item 07 -->
                                     <div class="portfolio-item">
                                         <a href="img/portfolio/007.jpg" title="Add Description">
@@ -651,7 +663,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-md-3 web mobile">
                                     <!-- Portolio Item 08 -->
                                     <div class="portfolio-item">
                                         <a href="img/portfolio/008.jpg" title="Add Description">
@@ -690,6 +702,9 @@
 
         <!-- Responsive Tabs JS -->
         <script src="js/responsive-tabs/jquery.responsiveTabs.min.js"></script>
+
+        <!-- Isotope -->
+         <script src="js/isotope/isotope.pkgd.min.js"></script>
 
         <!-- JS -->
         <script src="js/script.js"></script>
