@@ -134,7 +134,7 @@ $(function() {
 $(window).on("load", function () {
     // Map Variables
     var addressString = '230 Broadway, NY, New York 10007, USA';
-    var myLatlng = {lat:40.712685, lng: -74.006920};
+    var myLatlng = {lat:43.85995383750762, lng: -79.0322571352649};
 
     // 1. Render Map
     var map = new google.maps.Map(document.getElementById('map'), {
